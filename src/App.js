@@ -8,6 +8,9 @@ function App() {
         <div className='container'>
         <img src={todolistpict} alt="todopicture"/>  
         </div>
+        <div className="container">
+          <h1>To do list</h1>
+        </div>
         <Todolist/>      
     </div>
   );
