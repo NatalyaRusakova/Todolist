@@ -22,9 +22,10 @@ export class Todolist extends Component {
         }
     }
 
-    crossedWord(event) {
+    crossedWord(event, input) {
         const li = event.target;
-        li.classList.toggle('crossed');        
+        li.classList.toggle('crossed');  
+        this.setState({List: input + '✅'})
     }
 
     deleteItem() {
