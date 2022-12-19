@@ -22,7 +22,7 @@ export class Todolist extends Component {
         }
     }
 
-    crossedWord(event, input) {
+    crossedWord(event) {
         const li = event.target;
         li.classList.toggle('crossed');        
     }
